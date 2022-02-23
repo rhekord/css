@@ -3,18 +3,21 @@ body {
     font-size: 1.25em ; 
     text-align: justify;
      text-transform: ;
-     font-family: "Times New Roman", serif;
+     font-family: "Noto Sans";
+     
 }
 
 
 #title {
     color: steelblue  ;
     font-weight: 400;
+    font-family: "PT Sans";
 }
 
 #div-image {
     height: 400px ;
     width: 70vw;
+    
 
     background: radial-gradient(circle, blue 10%, yellow 40%, red 50%);
     
@@ -24,5 +27,5 @@ body {
     
 }
 .italics {
-    font-style: italic;
-}
+    font-family: "PT Sans";
+} 
