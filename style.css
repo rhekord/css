@@ -1,0 +1,28 @@
+body {
+    background:linear-gradient(rgba(241, 252, 125), rgba(241, 252, 125, 0 )) ;
+    font-size: 1.25em ; 
+    text-align: justify;
+     text-transform: ;
+     font-family: "Times New Roman", serif;
+}
+
+
+#title {
+    color: steelblue  ;
+    font-weight: 400;
+}
+
+#div-image {
+    height: 400px ;
+    width: 70vw;
+
+    background: radial-gradient(circle, blue 10%, yellow 40%, red 50%);
+    
+}
+.google-link {
+    text-decoration: none;
+    
+}
+.italics {
+    font-style: italic;
+}
