@@ -1,5 +1,5 @@
-body {
-    background:linear-gradient(rgba(241, 252, 125), rgba(241, 252, 125, 0 )) ;
+ body {
+    background:linear-gradient(rgb(241, 252, 125), rgba(241, 252, 125, 0 )) ;
     font-size: 1.25em ; 
     text-align: justify;
      text-transform: ;
@@ -11,7 +11,7 @@ body {
 #title {
     color: steelblue  ;
     font-weight: 400;
-    font-family: "PT Sans";
+    font-family: "PT Sans",sans-serif;
 }
 
 #div-image {
@@ -20,7 +20,7 @@ body {
     
 
     background: radial-gradient(circle, blue 10%, yellow 40%, red 50%);
-    
+    border: 10px double rgb(190, 200, 85)   ;
 }
 .google-link {
     text-decoration: none;
@@ -29,3 +29,11 @@ body {
 .italics {
     font-family: "PT Sans";
 } 
+#about-me-image {
+    height: 300px;
+    width: 60%;
+
+    border: 10px solid rgb(30, 25, 85);
+    padding: 30px 20px 40px 0px; /*top right  buttom left */
+    margin:  30px 10px ; /*top n  buttom   left  n right */
+}
