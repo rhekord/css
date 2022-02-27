@@ -20,12 +20,13 @@
     
 
     background: radial-gradient(circle, blue 10%, yellow 40%, red 50%);
-    border: 10px double rgb(190, 200, 85)   ;
+    border: 10px double rgb(190, 200, 85);
+
+    float: ;
 }
 .google-link {
     text-decoration: none;
-    
-}
+  }
 .italics {
     font-family: "PT Sans";
 } 
@@ -36,4 +37,19 @@
     border: 10px solid rgb(30, 25, 85);
     padding: 30px 20px 40px 0px; /*top right  buttom left */
     margin:  30px 10px ; /*top n  buttom   left  n right */
+    float: right;
+}
+.table {
+    display: inline-block;
+}
+.container-item {
+    background: rgb(30, 25, 85);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 50px;
+    margin: 10px 10px;
+
 }
