@@ -42,7 +42,19 @@
 .table {
     display: inline-block;
 }
-.container-item {
+
+.container {
+    background-color: rgb(241, 252, 125);
+    margin: 10px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+}
+.container-item {  
     background: rgb(30, 25, 85);
     color: white;
     font-size: 25px;
